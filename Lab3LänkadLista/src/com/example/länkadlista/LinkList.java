@@ -84,6 +84,7 @@ class LinkList{
 		if (current != null) {
 			recursiveReversePrint( current.next ); 
 		    current.displayLink();
+		    
 		}
 	}
 	public Link deleteFirst(){
